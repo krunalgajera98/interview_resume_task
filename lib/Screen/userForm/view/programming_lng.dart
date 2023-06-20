@@ -89,7 +89,7 @@ class ProgrammingLng extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           child: AppButton(
-            text: 'Add another link',
+            text: 'Add another programming language',
             onTap: () {
               userFormController.programmingLngList.add('');
             },

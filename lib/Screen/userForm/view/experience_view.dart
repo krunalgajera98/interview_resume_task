@@ -159,7 +159,7 @@ class ExperienceView extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           child: AppButton(
-            text: AppString.addAnotherLink,
+            text: 'Add another experience',
             onTap: () {
               userFormController.experienceList.add(Experience());
             },

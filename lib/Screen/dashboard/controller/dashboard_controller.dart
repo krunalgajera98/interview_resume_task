@@ -13,6 +13,8 @@ class DashBoardController extends GetxController {
 
   Future<void> getResumeFromStorage() async {
     var list = SharedPrefs.getString(key: PrefString.resumeList);
-    resumeList.value = resumeModelListFromJson(list);
+    if (list.isNotEmpty) {
+      resumeList.value = resumeModelListFromJson(list);
+    }
   }
 }

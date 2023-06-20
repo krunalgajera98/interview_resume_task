@@ -1,0 +1,30 @@
+class AppString {
+  static const String createResume = 'CREATE A RESUME';
+  static const String employmentHistory = 'Employment History';
+  static const String yourLinks = 'Your Links';
+  static const String linkName = 'Link Name';
+  static const String linkURL = 'Link URL';
+  static const String addAnotherLink = 'Add another link';
+  static const String phoneNumber = 'Phone Number';
+  static const String jobRole = 'Job Role';
+  static const String summary = 'Summary';
+  static const String emailAddress = 'Email Address';
+  static const String lastName = 'Last Name';
+  static const String firstName = 'First Name';
+  static const String personalDetails = 'Personal Details';
+  static const String skill = 'Skills';
+  static const String languages = 'Languages';
+  static const String enterLanguage = 'Enter Language';
+  static const String yourExperience = 'Your Experience';
+  static const String jobTitle = 'Job Title';
+  static const String role = 'Role';
+  static const String endDate = 'End Date';
+  static const String city = 'City';
+  static const String startDate = 'Start Date';
+  static const String removeThisExperience = 'Remove this experience';
+  static const String save = 'Save';
+  static const String enterProgrammingLanguage = 'Enter Programming Language';
+  static const String programmingLanguage = 'Programming Language';
+  static const String dashBoard = 'DashBoard';
+  static const String details = 'Details';
+}
